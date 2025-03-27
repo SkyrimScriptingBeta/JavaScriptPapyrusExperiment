@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<PapyrusProject xmlns="PapyrusProject.xsd" Flags="TESV_Papyrus_Flags.flg" Game="sse" Output="Scripts">
+    <Variables>
+        <Variable Name="Imports" Value="C:\Modding\PapyrusImports" />
+    </Variables>
+    <Imports>
+        <Import>@Imports\SkyUI</Import>
+        <Import>@Imports\UIExtensions</Import>
+        <Import>@Imports\SKSE</Import>
+        <Import>@Imports\GameScripts</Import>
+    </Imports>
+    <Folders>
+        <Folder>./Scripts/Source</Folder>
+    </Folders>
+</PapyrusProject>
