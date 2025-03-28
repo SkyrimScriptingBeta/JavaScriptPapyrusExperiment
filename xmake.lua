@@ -26,11 +26,11 @@ add_requires("SkyrimScripting.Console", { configs = { commonlib = get_config("co
 --     compile_papyrus_scripts()
     
 skse_plugin({
-    name = "Hello Plugin",
+    name = "JavaScript Papyrus Experiment",
     version = "0.0.1",
-    author = "Your Name",
-    email = "your.name@example.com",
-    mod_files = {"Scripts"},
+    author = "Mrowr Purr",
+    email = "mrowr.purr@gmail.com",
+    -- mod_files = {"Scripts"},
     -- deps = {"Build Papyrus Scripts"},
     packages = {
         "SkyrimScripting.Plugin",
