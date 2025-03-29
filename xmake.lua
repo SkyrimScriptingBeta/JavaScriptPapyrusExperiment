@@ -24,6 +24,8 @@ add_requires("SkyrimScripting.Console", { configs = { commonlib = get_config("co
 -- target("Build Papyrus Scripts")
 --     set_kind("phony")
 --     compile_papyrus_scripts()
+
+-- Requires CXX flag /Zc:preprocessor
     
 skse_plugin({
     name = "JavaScript Papyrus Experiment",
